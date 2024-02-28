@@ -1,0 +1,240 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+#Menu {
+    background-color: #ec3454;
+    font-size: 20pt;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+p{
+    color: white;
+}
+nav ul{ 
+    color: white;
+    padding: 14px 16px;
+    align-items: center;
+}
+nav ul li {
+    display: inline-block;
+    margin-top: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+li{
+    text-decoration: none;
+    color: white;
+}
+h1 {
+    font-size: 60px;
+    color: white;
+    margin-top: 10px;
+}
+h2{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 15px;
+}
+h3 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 15px;
+}
+h4{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+h5{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 40px;
+}
+h6{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+}
+#Home{
+    background: #ec3454;
+    padding: 138px 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+.flex {
+	display: flex;
+}
+.flex-item-1 {
+	flex: 1;
+}
+.item{
+    margin: auto;
+}
+
+#About{
+    background-color:  #24c4e4;
+    padding: 140px 0;
+}
+#Services{
+    background-color: #a44cf4;
+    padding: 175px 0;
+}
+.container1{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+#Pricing{
+    background-color: #145cec;
+    padding: 90px 0;
+}
+.card-li{
+    font-size: 20px;
+    list-style-type: none;
+    color: white;
+    align-items: center;
+}
+.final-li-card{
+    font-size: 70px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 45px;
+    margin: 15px;
+}
+.container2 {
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.circular2 {
+    border-radius: 27px 27px 27px 27px;
+    padding: 12px 50px 12px 68px;
+    background-color: #145cec;
+    margin-bottom: 20px;
+}
+.card-style{
+    list-style-type: none;
+}
+.button-color{
+    color: black;
+}
+.button {
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    background: white;
+    background-size: 400%;
+    text-transform: uppercase;
+}
+button{
+    text-align: center;
+    font-size: 13pt;
+    margin-top: 20px;
+    box-sizing: 20px;
+}
+#People{
+    background-color: #3cdcb4;
+    padding: 90px 0;
+}
+#Contact{
+    background-color:#dc44ac;
+    padding: 100px 0;
+}
+.balão{
+    list-style-type: none;
+}
+img{
+    max-width: 400px;
+}
+.final{
+    background-color: black;
+    padding: 10px 0;
+}
+.final-style{
+    font-size: 20px;
+    color: white;
+    margin-left: 30px;
+}
+.final-li{
+    font-size: 20px;
+    list-style-type: none;
+    color: white;
+    align-items: center;
+    display: inline-block;
+    padding: 15px 16px;
+    }
+.back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 2rem;
+    background: black;
+    width: 3em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    transform: rotate(-93deg);
+    border: 0.1rem solid black;
+}
+.form-group {
+    margin-bottom: 15px;
+    border-radius: 100%;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-control{
+    width: 300px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42;
+    color: #fff;
+    background-color: #dc44ac;
+    background-image: none;
+    border: 1px solid white;
+    border-radius: 27px 27px 27px 27px;
+}
+.botão-primary {
+    color: #000;
+    border-radius: 27px 27px 27px 27px;
+    padding: 12px 68px 12px 68px;
+    background-color: white;
+    margin-bottom: 20px;
+    max-width: 150px;
+    text-align: center;
+}
+.placeholder{
+    color: white;
+}
+
+
+input::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+    color: #FFF;
+  }
+  
